@@ -19,7 +19,7 @@ namespace Holamundo
             int edad = -1;
             bool esValido = Int32.TryParse(edadtx, out edad);
 
-            if (edad == -1) //if (!esValido) es decir If (esvalido == true) 
+            if (!esValido) //if (!esValido) es decir If (esvalido == true) 
             {
                 Console.WriteLine("Ingrese bien la edad");
             }
