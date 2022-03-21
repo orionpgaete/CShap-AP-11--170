@@ -10,7 +10,38 @@ namespace AdminPersonas
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main (string[] args)
+        {
+
+        }
+
+        static bool Menu()
+        {
+            bool continuar = true;
+
+            Console.WriteLine("1. Ingresar");
+            Console.WriteLine("2. Mostrar");
+            Console.WriteLine("3. Buscar");
+            Console.WriteLine("0. Salir");
+
+            switch (Console.ReadLine().Trim())
+            {
+                case "1": IngresarPersona();
+                    break;
+                case "2": //mostrar
+                    break;
+                case "3": //Buscar
+                    break;
+                case "0": continuar = false;
+                    break;
+                default: Console.WriteLine("Aprete el teclado bien.....");
+                    break;
+            }
+            return continuar;
+        }
+
+        
+        static void IngresarPersona()
         {
             string nombre;
             uint telefono;
@@ -48,11 +79,14 @@ namespace AdminPersonas
                 nombre = Console.ReadLine().Trim();
             } while (nombre == string.Empty);
 
+            Persona p = new Persona();
+            p.Nombre = nombre;
+
             Console.WriteLine("Nombre: {0}", nombre);
             Console.WriteLine("Telefono : {0}", telefono);
             Console.WriteLine("Peso : {0}", peso);
             Console.WriteLine("Estatura : {0}", estatura);
-            Console.WriteLine("IMC es ", peso / (estatura * estatura));
+            Console.WriteLine("IMC es : {0}", peso / (estatura * estatura));
             Console.ReadKey();
         }
 
