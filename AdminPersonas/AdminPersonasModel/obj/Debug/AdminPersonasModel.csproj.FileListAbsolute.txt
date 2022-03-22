@@ -1,0 +1,6 @@
+C:\Users\Orion\source\repos\CShap-AP-11--170\AdminPersonas\AdminPersonasModel\bin\Debug\AdminPersonasModel.dll
+C:\Users\Orion\source\repos\CShap-AP-11--170\AdminPersonas\AdminPersonasModel\bin\Debug\AdminPersonasModel.pdb
+C:\Users\Orion\source\repos\CShap-AP-11--170\AdminPersonas\AdminPersonasModel\obj\Debug\AdminPersonasModel.csprojAssemblyReference.cache
+C:\Users\Orion\source\repos\CShap-AP-11--170\AdminPersonas\AdminPersonasModel\obj\Debug\AdminPersonasModel.csproj.CoreCompileInputs.cache
+C:\Users\Orion\source\repos\CShap-AP-11--170\AdminPersonas\AdminPersonasModel\obj\Debug\AdminPersonasModel.dll
+C:\Users\Orion\source\repos\CShap-AP-11--170\AdminPersonas\AdminPersonasModel\obj\Debug\AdminPersonasModel.pdb

@@ -5,3 +5,6 @@ C:\Users\Orion\source\repos\CShap-AP-11--170\AdminPersonas\AdminPersonas\obj\Deb
 C:\Users\Orion\source\repos\CShap-AP-11--170\AdminPersonas\AdminPersonas\obj\Debug\AdminPersonas.csproj.CoreCompileInputs.cache
 C:\Users\Orion\source\repos\CShap-AP-11--170\AdminPersonas\AdminPersonas\obj\Debug\AdminPersonas.exe
 C:\Users\Orion\source\repos\CShap-AP-11--170\AdminPersonas\AdminPersonas\obj\Debug\AdminPersonas.pdb
+C:\Users\Orion\source\repos\CShap-AP-11--170\AdminPersonas\AdminPersonas\bin\Debug\AdminPersonasModel.dll
+C:\Users\Orion\source\repos\CShap-AP-11--170\AdminPersonas\AdminPersonas\bin\Debug\AdminPersonasModel.pdb
+C:\Users\Orion\source\repos\CShap-AP-11--170\AdminPersonas\AdminPersonas\obj\Debug\AdminPersonas.csproj.CopyComplete

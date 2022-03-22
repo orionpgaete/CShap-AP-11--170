@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AdminPersonasModel.DAL;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,62 +8,83 @@ using System.Threading.Tasks;
 namespace AdminPersonas { 
     public partial class Program
 {
-    static void IngresarPersona()
-    {
-        string nombre;
-        uint telefono;
-        double peso;
-        double estatura;
-
-        Console.WriteLine("Bievenido al programa ultramente BKN");
-
-        bool esValido;
-
-        do
+        static void IngresarPersona()
         {
-            Console.WriteLine("Ingrese telefono");
-            string tel = Console.ReadLine().Trim();
-            esValido = UInt32.TryParse(tel, out telefono);
-        } while (!esValido);
+            string nombre;
+            uint telefono;
+            double peso;
+            double estatura;
 
-        do
-        {
-            Console.WriteLine("Ingrese peso");
-            string pes = Console.ReadLine().Trim();
-            esValido = Double.TryParse(pes, out peso);
-        } while (!esValido);
+            Console.WriteLine("Bievenido al programa ultramente BKN");
 
-        do
-        {
-            Console.WriteLine("Ingrese estatura");
-            string est = Console.ReadLine().Trim();
-            esValido = Double.TryParse(est, out estatura);
-        } while (!esValido);
+            bool esValido;
 
-        do
-        {
-            Console.WriteLine("Ingrese nombre");
-            nombre = Console.ReadLine().Trim();
-        } while (nombre == string.Empty);
+            do
+            {
+                Console.WriteLine("Ingrese telefono");
+                string tel = Console.ReadLine().Trim();
+                esValido = UInt32.TryParse(tel, out telefono);
+            } while (!esValido);
 
-        Persona p = new Persona();
-        p.Nombre = nombre;
+            do
+            {
+                Console.WriteLine("Ingrese peso");
+                string pes = Console.ReadLine().Trim();
+                esValido = Double.TryParse(pes, out peso);
+            } while (!esValido);
 
-        Console.WriteLine("Nombre: {0}", nombre);
-        Console.WriteLine("Telefono : {0}", telefono);
-        Console.WriteLine("Peso : {0}", peso);
-        Console.WriteLine("Estatura : {0}", estatura);
+            do
+            {
+                Console.WriteLine("Ingrese estatura");
+                string est = Console.ReadLine().Trim();
+                esValido = Double.TryParse(est, out estatura);
+            } while (!esValido);
+
+            do
+            {
+                Console.WriteLine("Ingrese nombre");
+                nombre = Console.ReadLine().Trim();
+            } while (nombre == string.Empty);
+
+            Persona p = new Persona()
+            { Nombre = nombre,
+                Estatura = estatura,
+                Telefono = telefono,
+                Peso = peso
+            };
+
+            /*  p.Nombre = nombre;
+              p.Estatura = estatura;
+              p.Peso = peso;
+              p.Telefono = telefono;*/
+
+            new PersonasDAL().AgregarPersona(p);
+
+
+        Console.WriteLine("Nombre: {0}", p.Nombre);
+        Console.WriteLine("Telefono : {0}", p.Telefono);
+        Console.WriteLine("Peso : {0}", p.Peso);
+        Console.WriteLine("Estatura : {0}", p.Estatura);
         Console.WriteLine("IMC es : {0}", peso / (estatura * estatura));
-        Console.ReadKey();
+        
     }
 
         static void MostrarPersona()
         {
-
+            List<Persona> personas = new PersonasDAL().ObtenerPersonas();
+            for (int i=0; i < personas.Count(); i++)
+            {
+                Persona actual = personas[i];
+                Console.WriteLine("{0}: Nombre: {1} y Peso: {2}", i, actual.Nombre, actual.Peso);
+            }
         }
 
         static void BuscarPersona()
         {
+            Console.WriteLine("Ingrese nombre a buscar");
+            List<Persona> filtradas = new PersonasDAL().FiltrarPersonas(Console.ReadLine().Trim());
+
+            filtradas.ForEach(p => Console.WriteLine("Nombre : {0} y Peso: {1}", p.Nombre, p.Peso));
 
         }
 
