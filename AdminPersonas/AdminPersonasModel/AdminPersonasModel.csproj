@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAL\IPersonasDAL.cs" />
+    <Compile Include="DAL\PersonasDALArchivos.cs" />
     <Compile Include="DAL\PersonasDALObjetos.cs" />
     <Compile Include="DTO\Persona.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

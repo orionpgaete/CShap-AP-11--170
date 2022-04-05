@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace AdminPersonas { 
     public partial class Program
 {
-        static IPersonasDAL personasDAL = new PersonasDALObjetos();
+        static IPersonasDAL personasDAL = new PersonasDALArchivos();
         static void IngresarPersona()
         {
             string nombre;
