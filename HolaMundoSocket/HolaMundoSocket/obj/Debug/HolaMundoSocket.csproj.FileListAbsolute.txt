@@ -1,0 +1,7 @@
+C:\Users\Orion\source\repos\orionpgaete\TIDC11-T60-170\HolaMundoSocket\HolaMundoSocket\bin\Debug\HolaMundoSocket.exe.config
+C:\Users\Orion\source\repos\orionpgaete\TIDC11-T60-170\HolaMundoSocket\HolaMundoSocket\bin\Debug\HolaMundoSocket.exe
+C:\Users\Orion\source\repos\orionpgaete\TIDC11-T60-170\HolaMundoSocket\HolaMundoSocket\bin\Debug\HolaMundoSocket.pdb
+C:\Users\Orion\source\repos\orionpgaete\TIDC11-T60-170\HolaMundoSocket\HolaMundoSocket\obj\Debug\HolaMundoSocket.csprojAssemblyReference.cache
+C:\Users\Orion\source\repos\orionpgaete\TIDC11-T60-170\HolaMundoSocket\HolaMundoSocket\obj\Debug\HolaMundoSocket.csproj.CoreCompileInputs.cache
+C:\Users\Orion\source\repos\orionpgaete\TIDC11-T60-170\HolaMundoSocket\HolaMundoSocket\obj\Debug\HolaMundoSocket.exe
+C:\Users\Orion\source\repos\orionpgaete\TIDC11-T60-170\HolaMundoSocket\HolaMundoSocket\obj\Debug\HolaMundoSocket.pdb
