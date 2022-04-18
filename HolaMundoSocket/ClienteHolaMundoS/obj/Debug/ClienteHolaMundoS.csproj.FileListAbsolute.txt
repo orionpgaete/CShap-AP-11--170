@@ -1,0 +1,7 @@
+C:\Users\Orion\source\repos\CShap-AP-11--170\HolaMundoSocket\ClienteHolaMundoS\bin\Debug\ClienteHolaMundoS.exe.config
+C:\Users\Orion\source\repos\CShap-AP-11--170\HolaMundoSocket\ClienteHolaMundoS\bin\Debug\ClienteHolaMundoS.exe
+C:\Users\Orion\source\repos\CShap-AP-11--170\HolaMundoSocket\ClienteHolaMundoS\bin\Debug\ClienteHolaMundoS.pdb
+C:\Users\Orion\source\repos\CShap-AP-11--170\HolaMundoSocket\ClienteHolaMundoS\obj\Debug\ClienteHolaMundoS.csprojAssemblyReference.cache
+C:\Users\Orion\source\repos\CShap-AP-11--170\HolaMundoSocket\ClienteHolaMundoS\obj\Debug\ClienteHolaMundoS.csproj.CoreCompileInputs.cache
+C:\Users\Orion\source\repos\CShap-AP-11--170\HolaMundoSocket\ClienteHolaMundoS\obj\Debug\ClienteHolaMundoS.exe
+C:\Users\Orion\source\repos\CShap-AP-11--170\HolaMundoSocket\ClienteHolaMundoS\obj\Debug\ClienteHolaMundoS.pdb
