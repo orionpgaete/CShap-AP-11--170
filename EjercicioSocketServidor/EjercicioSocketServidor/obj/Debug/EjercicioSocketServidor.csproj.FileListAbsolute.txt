@@ -1,0 +1,10 @@
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioSocketServidor\EjercicioSocketServidor\bin\Debug\EjercicioSocketServidor.exe.config
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioSocketServidor\EjercicioSocketServidor\bin\Debug\EjercicioSocketServidor.exe
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioSocketServidor\EjercicioSocketServidor\bin\Debug\EjercicioSocketServidor.pdb
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioSocketServidor\EjercicioSocketServidor\bin\Debug\ServidorSocketUtils.dll
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioSocketServidor\EjercicioSocketServidor\bin\Debug\ServidorSocketUtils.pdb
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioSocketServidor\EjercicioSocketServidor\obj\Debug\EjercicioSocketServidor.csprojAssemblyReference.cache
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioSocketServidor\EjercicioSocketServidor\obj\Debug\EjercicioSocketServidor.csproj.CoreCompileInputs.cache
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioSocketServidor\EjercicioSocketServidor\obj\Debug\EjercicioSocketServidor.csproj.CopyComplete
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioSocketServidor\EjercicioSocketServidor\obj\Debug\EjercicioSocketServidor.exe
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioSocketServidor\EjercicioSocketServidor\obj\Debug\EjercicioSocketServidor.pdb

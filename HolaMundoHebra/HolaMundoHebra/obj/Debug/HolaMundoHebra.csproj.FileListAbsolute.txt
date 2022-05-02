@@ -1,0 +1,7 @@
+C:\Users\Orion\source\repos\CShap-AP-11--170\HolaMundoHebra\HolaMundoHebra\bin\Debug\HolaMundoHebra.exe.config
+C:\Users\Orion\source\repos\CShap-AP-11--170\HolaMundoHebra\HolaMundoHebra\bin\Debug\HolaMundoHebra.exe
+C:\Users\Orion\source\repos\CShap-AP-11--170\HolaMundoHebra\HolaMundoHebra\bin\Debug\HolaMundoHebra.pdb
+C:\Users\Orion\source\repos\CShap-AP-11--170\HolaMundoHebra\HolaMundoHebra\obj\Debug\HolaMundoHebra.csprojAssemblyReference.cache
+C:\Users\Orion\source\repos\CShap-AP-11--170\HolaMundoHebra\HolaMundoHebra\obj\Debug\HolaMundoHebra.csproj.CoreCompileInputs.cache
+C:\Users\Orion\source\repos\CShap-AP-11--170\HolaMundoHebra\HolaMundoHebra\obj\Debug\HolaMundoHebra.exe
+C:\Users\Orion\source\repos\CShap-AP-11--170\HolaMundoHebra\HolaMundoHebra\obj\Debug\HolaMundoHebra.pdb
