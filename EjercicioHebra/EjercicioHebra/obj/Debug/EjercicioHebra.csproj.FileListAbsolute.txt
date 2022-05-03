@@ -1,0 +1,6 @@
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioHebra\EjercicioHebra\bin\Debug\EjercicioHebra.exe.config
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioHebra\EjercicioHebra\bin\Debug\EjercicioHebra.exe
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioHebra\EjercicioHebra\bin\Debug\EjercicioHebra.pdb
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioHebra\EjercicioHebra\obj\Debug\EjercicioHebra.csproj.CoreCompileInputs.cache
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioHebra\EjercicioHebra\obj\Debug\EjercicioHebra.exe
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioHebra\EjercicioHebra\obj\Debug\EjercicioHebra.pdb
