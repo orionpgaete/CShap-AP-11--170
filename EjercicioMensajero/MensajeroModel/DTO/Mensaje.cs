@@ -15,5 +15,10 @@ namespace MensajeroModel
         public string Nombre { get => nombre; set => nombre = value; }
         public string Tipo { get => tipo; set => tipo = value; }
         public string Texto { get => texto; set => texto = value; }
+
+        public override string ToString()
+        {
+            return nombre + " " + texto + " " + tipo;
+        }
     }
 }

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioMensajero", "Ejerc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MensajeroModel", "MensajeroModel\MensajeroModel.csproj", "{A4965824-A5FF-4026-B1AC-51A3585D0467}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServidorSocketUtils", "ServidorSocketUtils\ServidorSocketUtils.csproj", "{48C487B5-927C-47F4-9C3C-05B3F9229C87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A4965824-A5FF-4026-B1AC-51A3585D0467}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4965824-A5FF-4026-B1AC-51A3585D0467}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4965824-A5FF-4026-B1AC-51A3585D0467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48C487B5-927C-47F4-9C3C-05B3F9229C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C487B5-927C-47F4-9C3C-05B3F9229C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C487B5-927C-47F4-9C3C-05B3F9229C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C487B5-927C-47F4-9C3C-05B3F9229C87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

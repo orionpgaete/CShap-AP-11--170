@@ -1,0 +1,6 @@
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioMensajero\MensajeroModel\bin\Debug\MensajeroModel.dll
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioMensajero\MensajeroModel\bin\Debug\MensajeroModel.pdb
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioMensajero\MensajeroModel\obj\Debug\MensajeroModel.csprojAssemblyReference.cache
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioMensajero\MensajeroModel\obj\Debug\MensajeroModel.csproj.CoreCompileInputs.cache
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioMensajero\MensajeroModel\obj\Debug\MensajeroModel.dll
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioMensajero\MensajeroModel\obj\Debug\MensajeroModel.pdb

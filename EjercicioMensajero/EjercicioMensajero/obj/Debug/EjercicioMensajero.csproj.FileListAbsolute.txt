@@ -1,0 +1,12 @@
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioMensajero\EjercicioMensajero\bin\Debug\EjercicioMensajero.exe.config
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioMensajero\EjercicioMensajero\bin\Debug\EjercicioMensajero.exe
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioMensajero\EjercicioMensajero\bin\Debug\EjercicioMensajero.pdb
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioMensajero\EjercicioMensajero\bin\Debug\MensajeroModel.dll
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioMensajero\EjercicioMensajero\bin\Debug\MensajeroModel.pdb
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioMensajero\EjercicioMensajero\obj\Debug\EjercicioMensajero.csprojAssemblyReference.cache
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioMensajero\EjercicioMensajero\obj\Debug\EjercicioMensajero.csproj.CoreCompileInputs.cache
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioMensajero\EjercicioMensajero\obj\Debug\EjercicioMensajero.csproj.CopyComplete
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioMensajero\EjercicioMensajero\obj\Debug\EjercicioMensajero.exe
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioMensajero\EjercicioMensajero\obj\Debug\EjercicioMensajero.pdb
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioMensajero\EjercicioMensajero\bin\Debug\ServidorSocketUtils.dll
+C:\Users\Orion\source\repos\CShap-AP-11--170\EjercicioMensajero\EjercicioMensajero\bin\Debug\ServidorSocketUtils.pdb
