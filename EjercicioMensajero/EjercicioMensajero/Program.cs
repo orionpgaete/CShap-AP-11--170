@@ -46,6 +46,9 @@ namespace EjercicioMensajero
             HebraServidor hebra = new HebraServidor();
             Thread t = new Thread(new ThreadStart(hebra.Ejecutar));
             t.Start();
+            //1. ¿Como atender mas de un cliente a la vez?
+            //2. ¿Como evito que dos clientes ingresen al archivo a la vez?
+            //   ¿Como evitar el bloqueo mutuo?
             while (Menu()) ;
         }
 
@@ -61,12 +64,21 @@ namespace EjercicioMensajero
                 Texto = texto,
                 Tipo = "Aplicacion"
             };
-            mensajesDAL.AgregarMensaje(mensaje);
+            //nuestro proyecto es ThreadSafe que significa que nos hacemos cargo de la concurrencia
+            lock (mensajesDAL)
+            {
+                mensajesDAL.AgregarMensaje(mensaje);
+            }
+            
         }
 
         static void Mostrar()
         {
-            List<Mensaje> mensajes = mensajesDAL.ObtenerMensajes();
+            List<Mensaje> mensajes = null;
+            lock (mensajesDAL)
+            {
+                mensajes = mensajesDAL.ObtenerMensajes();
+            }
             foreach(Mensaje mensaje in mensajes)
             {
                 Console.WriteLine(mensaje);
