@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarCapWeb", "StarCapWeb\StarCapWeb.csproj", "{71210B8D-5D40-4A0D-B705-5669E736802C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarCapModel", "StarCapModel\StarCapModel.csproj", "{3BDEDB30-3080-4462-82DF-BBB09C6162CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71210B8D-5D40-4A0D-B705-5669E736802C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71210B8D-5D40-4A0D-B705-5669E736802C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71210B8D-5D40-4A0D-B705-5669E736802C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71210B8D-5D40-4A0D-B705-5669E736802C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BDEDB30-3080-4462-82DF-BBB09C6162CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BDEDB30-3080-4462-82DF-BBB09C6162CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BDEDB30-3080-4462-82DF-BBB09C6162CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BDEDB30-3080-4462-82DF-BBB09C6162CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F9BDA13-060F-4AED-8C2D-7DBEFBB7B892}
+	EndGlobalSection
+EndGlobal
