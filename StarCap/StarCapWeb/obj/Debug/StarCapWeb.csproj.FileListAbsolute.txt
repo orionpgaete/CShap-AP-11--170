@@ -57,3 +57,5 @@ C:\Users\Orion\source\repos\CShap-AP-11--170\StarCap\StarCapWeb\obj\Debug\StarCa
 C:\Users\Orion\source\repos\CShap-AP-11--170\StarCap\StarCapWeb\obj\Debug\StarCapWeb.csproj.CopyComplete
 C:\Users\Orion\source\repos\CShap-AP-11--170\StarCap\StarCapWeb\obj\Debug\StarCapWeb.dll
 C:\Users\Orion\source\repos\CShap-AP-11--170\StarCap\StarCapWeb\obj\Debug\StarCapWeb.pdb
+C:\Users\Orion\source\repos\CShap-AP-11--170\StarCap\StarCapWeb\bin\StarCapModel.dll
+C:\Users\Orion\source\repos\CShap-AP-11--170\StarCap\StarCapWeb\bin\StarCapModel.pdb

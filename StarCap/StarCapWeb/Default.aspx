@@ -2,6 +2,9 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenido" runat="server">
     <div class="row">
         <div class="col-lg-6 mx-auto">
+            <div class="mensajes">
+                <asp:Label runat="server" ID="mensajeLbl" CssClass="text-success"></asp:Label>
+            </div>
             <div class="card">
                 <div class="card-header bg-dark text-white">
                     <h3>Agregar Clientes</h3>
@@ -32,6 +35,10 @@
                             <asp:ListItem Value="3" Text="Platinum"></asp:ListItem>
                         </asp:RadioButtonList>
                     </div>
+                    <div class="form-group">
+                        <asp:Button runat="server" ID="agregarBtn" Text="Agregar" CssClass="btn btn-primary" OnClick="agregarBtn_Click"/>
+                    </div>
+
                 </div>
             </div>
         </div>

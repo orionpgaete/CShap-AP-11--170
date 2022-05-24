@@ -1,0 +1,6 @@
+C:\Users\Orion\source\repos\CShap-AP-11--170\StarCap\StarCapModel\bin\Debug\StarCapModel.dll
+C:\Users\Orion\source\repos\CShap-AP-11--170\StarCap\StarCapModel\bin\Debug\StarCapModel.pdb
+C:\Users\Orion\source\repos\CShap-AP-11--170\StarCap\StarCapModel\obj\Debug\StarCapModel.csprojAssemblyReference.cache
+C:\Users\Orion\source\repos\CShap-AP-11--170\StarCap\StarCapModel\obj\Debug\StarCapModel.csproj.CoreCompileInputs.cache
+C:\Users\Orion\source\repos\CShap-AP-11--170\StarCap\StarCapModel\obj\Debug\StarCapModel.dll
+C:\Users\Orion\source\repos\CShap-AP-11--170\StarCap\StarCapModel\obj\Debug\StarCapModel.pdb
