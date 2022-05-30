@@ -42,7 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="DAL\BebidasDALObjetos.cs" />
     <Compile Include="DAL\ClienteDALObjetos.cs" />
+    <Compile Include="DAL\IBebidas.cs" />
     <Compile Include="DAL\IClientesDAL.cs" />
     <Compile Include="DTO\Bebida.cs" />
     <Compile Include="DTO\Cliente.cs" />

@@ -12,9 +12,25 @@ namespace StarCapWeb
     public partial class Default : System.Web.UI.Page
     {
         private IClientesDAL clientesDAL = new ClienteDALObjetos();
+        private IBebidas bebidasDAL = new BebidasDALObjetos();
+        /// <summary>
+        /// Este metodo se ejecuta 
+        /// - Cuando es una peticion GET (!PostBack)
+        /// - cunado es una peticion POST (PostBack
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                List<Bebida> bebidas = bebidasDAL.ObtenerBebidas();
+                this.bebidaDdl.DataSource = bebidas;
+                this.bebidaDdl.DataTextField = "Nombre";
+                this.bebidaDdl.DataValueField = "Codigo";
+                this.bebidaDdl.DataBind();
 
+            }
         }
 
         protected void agregarBtn_Click(object sender, EventArgs e)
