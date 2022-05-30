@@ -44,11 +44,9 @@ namespace StarCapWeb
             string bebidaTexto = this.bebidaDdl.SelectedItem.Text;
             int nivel = Convert.ToInt32(this.nivelRbl.SelectedValue);
             //2. construir el objeto de tipo cliente
-            Bebida bebida = new Bebida()
-            {
-                Codigo = bebidaValor,
-                Nombre = bebidaTexto
-            };
+            List<Bebida> bebidas = bebidasDAL.ObtenerBebidas();
+            Bebida bebida = bebidas.Find(b => b.Codigo == this.bebidaDdl.SelectedItem.Value);
+
             Cliente cliente = new Cliente()
             {
                 Nombre = nombre,
@@ -60,6 +58,7 @@ namespace StarCapWeb
             clientesDAL.Agregar(cliente);
             //4. Mostrar mensajae de exito
             this.mensajeLbl.Text = "Cliente Ingresado Exitosamente !!!";
+            Response.Redirect("VerClientes.aspx");
         }
     }
 }

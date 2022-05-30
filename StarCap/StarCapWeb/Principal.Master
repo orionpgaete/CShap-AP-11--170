@@ -14,6 +14,22 @@
     <form id="form1" runat="server">
         <header class="container-fluid bg-dark text-white">
             <h1>StarCap Rewards</h1>
+            <div class="mt-5">
+
+                <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticDisplayLevels="2"></asp:Menu>
+
+                <asp:SiteMapDataSource runat="server" ID="SiteMapDataSource1"></asp:SiteMapDataSource>
+                <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Names="Verdana" Font-Size="0.8em" PathSeparator=" : ">
+                    <CurrentNodeStyle ForeColor="#333333"></CurrentNodeStyle>
+
+                    <NodeStyle Font-Bold="True" ForeColor="#284E98"></NodeStyle>
+
+                    <PathSeparatorStyle Font-Bold="True" ForeColor="#507CD1"></PathSeparatorStyle>
+
+                    <RootNodeStyle Font-Bold="True" ForeColor="#507CD1"></RootNodeStyle>
+                </asp:SiteMapPath>
+            </div>
+
         </header>
         <div class="container-fluid mt-5">
             <asp:ContentPlaceHolder ID="Contenido" runat="server">
