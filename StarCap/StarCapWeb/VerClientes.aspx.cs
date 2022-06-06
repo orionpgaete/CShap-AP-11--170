@@ -16,11 +16,26 @@ namespace StarCapWeb
         {
             if (!IsPostBack)
             {
-                List<Cliente> clientes = clientesDAL.Obtener();
-                this.grillaClientes.DataSource = clientes;
-                this.grillaClientes.DataBind();
+                cargaGrilla();
             }
 
+        }
+        private void cargaGrilla()
+        {
+            List<Cliente> clientes = clientesDAL.Obtener();
+            this.grillaClientes.DataSource = clientes;
+            this.grillaClientes.DataBind();
+        }
+        protected void grillaClientes_RowCommand(object sender, GridViewCommandEventArgs e)
+        {
+            if(e.CommandName == "eliminar")
+            {
+                //significa que el usuario apreto el boton eliminar
+                //por tanto, tengo que eliminar el cliente
+                string rut = Convert.ToString(e.CommandArgument);
+                clientesDAL.Eliminar(rut);
+                cargaGrilla();
+            }
         }
     }
 }
