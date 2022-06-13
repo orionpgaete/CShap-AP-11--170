@@ -7,8 +7,18 @@
                     <h3>Ver Clientes</h3>
                 </div>
                 <div class="card-body">
-                    <asp:GridView CssClass="table table-hover table-bordered" 
+                    <div class="form-group">
+                        <label for ="nivelDdl"> Filtrar por Nivel: </label>
+                        <asp:DropDownList AutoPostBack="true" OnSelectedIndexChanged="nivelDdl_SelectedIndexChanged" runat="server" ID="nivelDdl">
+                            <asp:ListItem Value="1" Text="Silver"></asp:ListItem>
+                            <asp:ListItem Value="2" Text="Gold"></asp:ListItem>
+                            <asp:ListItem Value="3" Text="Platinum"></asp:ListItem>
+                        </asp:DropDownList>
+                    </div>
+  
+                    <asp:GridView CssClass="table table-hover table-bordered mt-5" 
                         OnRowCommand="grillaClientes_RowCommand"
+                        EmptyDataText="No hay Clientes" ShowHeader="true"
                         AutoGenerateColumns="false" runat="server" ID="grillaClientes">
                        <Columns>
                            <asp:BoundField DataField="Rut" HeaderText="Rut Cliente" />
