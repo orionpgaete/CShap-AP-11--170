@@ -56,7 +56,6 @@
     <Compile Include="Asistente.cs">
       <DependentUpon>EventosDBModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Class1.cs" />
     <Compile Include="DAL\AsistentesDALDB.cs" />
     <Compile Include="DAL\IAsistentesDAL.cs" />
     <Compile Include="DAL\IRegionesDAL.cs" />

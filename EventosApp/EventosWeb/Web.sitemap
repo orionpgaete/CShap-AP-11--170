@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Default.aspx" title=""  description="">
+    <siteMapNode url="AgregarAsistente.aspx" title="Agregar Asistente"  description="" />
+    <siteMapNode url="MostrarAsistente.aspx" title="Mostrar Asistente"  description="" />
+  </siteMapNode>
+</siteMap>
