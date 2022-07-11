@@ -61,3 +61,6 @@ C:\Users\Orion\source\repos\CShap-AP-11--170\EventosApp\EventosWeb\obj\Debug\Eve
 C:\Users\Orion\source\repos\CShap-AP-11--170\EventosApp\EventosWeb\obj\Debug\EventosWeb.csproj.CopyComplete
 C:\Users\Orion\source\repos\CShap-AP-11--170\EventosApp\EventosWeb\obj\Debug\EventosWeb.dll
 C:\Users\Orion\source\repos\CShap-AP-11--170\EventosApp\EventosWeb\obj\Debug\EventosWeb.pdb
+C:\Users\Orion\source\repos\CShap-AP-11--170\EventosApp\EventosWeb\bin\EventosModel.dll
+C:\Users\Orion\source\repos\CShap-AP-11--170\EventosApp\EventosWeb\bin\EventosModel.pdb
+C:\Users\Orion\source\repos\CShap-AP-11--170\EventosApp\EventosWeb\bin\EventosModel.dll.config

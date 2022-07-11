@@ -1,0 +1,12 @@
+C:\Users\Orion\source\repos\CShap-AP-11--170\EventosApp\EventosModel\bin\Debug\EventosModel.dll.config
+C:\Users\Orion\source\repos\CShap-AP-11--170\EventosApp\EventosModel\bin\Debug\EventosModel.dll
+C:\Users\Orion\source\repos\CShap-AP-11--170\EventosApp\EventosModel\bin\Debug\EventosModel.pdb
+C:\Users\Orion\source\repos\CShap-AP-11--170\EventosApp\EventosModel\bin\Debug\EntityFramework.dll
+C:\Users\Orion\source\repos\CShap-AP-11--170\EventosApp\EventosModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Orion\source\repos\CShap-AP-11--170\EventosApp\EventosModel\bin\Debug\EntityFramework.xml
+C:\Users\Orion\source\repos\CShap-AP-11--170\EventosApp\EventosModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Orion\source\repos\CShap-AP-11--170\EventosApp\EventosModel\obj\Debug\EventosModel.csprojAssemblyReference.cache
+C:\Users\Orion\source\repos\CShap-AP-11--170\EventosApp\EventosModel\obj\Debug\EventosModel.csproj.CoreCompileInputs.cache
+C:\Users\Orion\source\repos\CShap-AP-11--170\EventosApp\EventosModel\obj\Debug\EventosModel.csproj.CopyComplete
+C:\Users\Orion\source\repos\CShap-AP-11--170\EventosApp\EventosModel\obj\Debug\EventosModel.dll
+C:\Users\Orion\source\repos\CShap-AP-11--170\EventosApp\EventosModel\obj\Debug\EventosModel.pdb

@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="row">
         <div class="col-lg-6 mx-auto">
-            <asp:DropDownList ID="estadoDDL" runat="server">
+            <asp:DropDownList ID="estadoDDL" runat="server" AutoPostBack="true" OnSelectedIndexChanged="estadoDDL_SelectedIndexChanged">
                 <asp:ListItem Text="Pagada" Value="Pagada"></asp:ListItem>
                 <asp:ListItem Text="Con Deuda" Value="conDeuda"></asp:ListItem>
             </asp:DropDownList>

@@ -10,6 +10,8 @@
                     <div class="form-group">
                         <label for="rutTxt">Rut</label>
                         <asp:TextBox ID="rutTxt" CssClass="form-control" runat="server"></asp:TextBox>
+                        <asp:RequiredFieldValidator ControlToValidate="rutTxt" CssClass="text-danger" ID="RequiredFieldValidator1" runat="server" ErrorMessage="Debe ingresar el Rut"></asp:RequiredFieldValidator>
+
                     </div>
                     <div class="form-group">
                         <label for="nombreTxt">Nombre</label>
@@ -22,6 +24,7 @@
                     <div class="form-group">
                         <label for="edadTxt">Edad</label>
                         <asp:TextBox ID="edadTxt" TextMode="Number" CssClass="form-control" runat="server"></asp:TextBox>
+                        <asp:RangeValidator ControlToValidate="edadTxt" CssClass="text-danger"  ID="RangeValidator1" runat="server" Type="Integer" ErrorMessage="Debe ingresar una edad mayor a 18" MinimumValue="18" MaximumValue="99"></asp:RangeValidator>
                     </div>
                     <div class="form-group">
                         <label for="empresaTxt">Empresa</label>
