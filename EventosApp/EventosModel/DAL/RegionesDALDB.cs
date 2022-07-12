@@ -12,7 +12,6 @@ namespace EventosModel.DAL
         public List<Region> ObtenerRegiones()
         {
             return this.eventosDB.Regions.ToList();
-            
         }
     }
 }

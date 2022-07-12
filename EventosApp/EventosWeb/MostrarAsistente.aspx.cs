@@ -22,14 +22,44 @@ namespace EventosWeb
         {
             if(!IsPostBack)
             {
-                this.cargaGrilla(this.asistentesDAL.ObtenerAsistentes());
+                this.cargaGrilla();
             }
-
         }
 
+
+        private void cargaGrilla()
+        {
+            List<Asistente> asistentes;
+                if (this.todosChk.Checked)
+                    {
+                        asistentes = this.asistentesDAL.ObtenerAsistentes();
+                      }
+                else
+                    {
+                        asistentes = this.asistentesDAL.ObtenerAsistentes(this.estadoDDL.SelectedItem.Value);
+
+                    }
+            this.cargaGrilla(asistentes);
+        }
         protected void estadoDDL_SelectedIndexChanged(object sender, EventArgs e)
         {
+            this.cargaGrilla();
+        }
 
+        protected void todosChk_CheckedChanged(object sender, EventArgs e)
+        {
+            this.estadoDDL.Enabled = this.todosChk.Checked;
+            this.cargaGrilla();
+        }
+
+        protected void grillaAsistente_RowCommand(object sender, GridViewCommandEventArgs e)
+        {
+            if(e.CommandName == "eliminar")
+            {
+                int id = Convert.ToInt32(e.CommandArgument);
+                this.asistentesDAL.EliminarAsistente(id);
+                this.cargaGrilla();
+            }
         }
     }
 }

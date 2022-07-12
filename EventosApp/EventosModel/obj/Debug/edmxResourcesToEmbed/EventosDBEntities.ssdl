@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EventosDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Asistente">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Rut" Type="varchar" MaxLength="13" />
+    <Property Name="Nombre" Type="varchar" MaxLength="30" />
+    <Property Name="Apellido" Type="varchar" MaxLength="30" />
+    <Property Name="Edad" Type="int" />
+    <Property Name="Empresa" Type="varchar" MaxLength="30" />
+    <Property Name="Estado" Type="varchar" MaxLength="30" />
+    <Property Name="IdRegion" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Region">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <Association Name="FK_Asistente_Region">
+    <End Role="Region" Type="Self.Region" Multiplicity="1" />
+    <End Role="Asistente" Type="Self.Asistente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Region">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Asistente">
+        <PropertyRef Name="IdRegion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EventosDBModelStoreContainer">
+    <EntitySet Name="Asistente" EntityType="Self.Asistente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Region" EntityType="Self.Region" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Asistente_Region" Association="Self.FK_Asistente_Region">
+      <End Role="Region" EntitySet="Region" />
+      <End Role="Asistente" EntitySet="Asistente" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

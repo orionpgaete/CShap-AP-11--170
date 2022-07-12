@@ -54,57 +54,57 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Asistente.cs">
-      <DependentUpon>EventosDBModel.tt</DependentUpon>
+      <DependentUpon>EventosDBEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="DAL\AsistentesDALDB.cs" />
     <Compile Include="DAL\IAsistentesDAL.cs" />
     <Compile Include="DAL\IRegionesDAL.cs" />
     <Compile Include="DAL\RegionesDALDB.cs" />
-    <Compile Include="EventosDBModel.Context.cs">
+    <Compile Include="EventosDBEntities.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EventosDBModel.Context.tt</DependentUpon>
+      <DependentUpon>EventosDBEntities.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="EventosDBModel.cs">
+    <Compile Include="EventosDBEntities.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EventosDBModel.tt</DependentUpon>
+      <DependentUpon>EventosDBEntities.tt</DependentUpon>
     </Compile>
-    <Compile Include="EventosDBModel.Designer.cs">
+    <Compile Include="EventosDBEntities.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EventosDBModel.edmx</DependentUpon>
+      <DependentUpon>EventosDBEntities.edmx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Region.cs">
-      <DependentUpon>EventosDBModel.tt</DependentUpon>
+      <DependentUpon>EventosDBEntities.tt</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <EntityDeploy Include="EventosDBModel.edmx">
+    <EntityDeploy Include="EventosDBEntities.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>EventosDBModel.Designer.cs</LastGenOutput>
+      <LastGenOutput>EventosDBEntities.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="EventosDBModel.edmx.diagram">
-      <DependentUpon>EventosDBModel.edmx</DependentUpon>
+    <None Include="EventosDBEntities.edmx.diagram">
+      <DependentUpon>EventosDBEntities.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="EventosDBModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>EventosDBModel.edmx</DependentUpon>
-      <LastGenOutput>EventosDBModel.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="EventosDBModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>EventosDBModel.edmx</DependentUpon>
-      <LastGenOutput>EventosDBModel.cs</LastGenOutput>
-    </Content>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <Content Include="EventosDBEntities.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>EventosDBEntities.edmx</DependentUpon>
+      <LastGenOutput>EventosDBEntities.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="EventosDBEntities.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>EventosDBEntities.edmx</DependentUpon>
+      <LastGenOutput>EventosDBEntities.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
